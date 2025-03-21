@@ -1,0 +1,12 @@
+.headings{
+    display: flex;
+}
+.tab-names{
+    border: 1px solid;
+    padding: 5px;
+}
+.tab-body{
+    width: 500px;
+    height: 300px;
+    border: 1px solid;
+}
