@@ -7,6 +7,14 @@ import './Tabform.css'
 
 function TabForm() {
     const [activeTab, setActiveTab] = useState(0)
+    const [inputs,setInputs]=useState({
+        name:"",
+        age:"0",
+        email:"",
+        interests:["anime","series"],
+        theme:"dark"
+        
+    })
     const tabs = [
         {
             name: "Profile",
@@ -37,7 +45,7 @@ function TabForm() {
                 })}
             </div>
             <div className='tab-body'>
-                <ActivetabComponent />
+                <ActivetabComponent inputs={inputs} setInputs={setInputs}/>
             </div>
         </div>
     )
