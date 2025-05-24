@@ -4,6 +4,7 @@ import Parent from './components/new/parent'
 import PageNation from './components/pageination/pageNation'
 import ChildPage from './components/pagination/childPage'
 import TabForm from './components/tabForm/TabForm'
+import TrailFrontPage from './components/trailFrontpage/trailFrontPage'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path='/parent' element={<Parent />}></Route>
           <Route path='/child' element={<ChildPage />}></Route>
           <Route path='/tabfrom' element={<TabForm />}></Route>
+          <Route path='/trailfrontpage' element={<TrailFrontPage/>}></Route>
         </Routes>
       </BrowserRouter>
 
